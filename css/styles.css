@@ -1,0 +1,92 @@
+/* BASE STYLES */
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+/* Common styles */
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.accent {
+}
+.header-list {
+}
+.header-item {
+}
+.socials {
+}
+.socials-list {
+}
+.socails-item {
+}
+.socials-link {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-captain {
+}
+.benefits-text {
+}
+.team {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-captain {
+}
+.team-text {
+}
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-captain {
+}
+.portfolio-text {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
