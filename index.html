@@ -3,8 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
@@ -15,13 +27,13 @@
         >
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-list" href="#studio">Studio</a>
+            <a class="header-link" href="#studio">Studio</a>
           </li>
           <li class="header-item">
-            <a class="header-list" href="#portfolio">Portfolio</a>
+            <a class="header-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="header-item">
-            <a class="header-list" href="#contacts">Contacts</a>
+            <a class="header-link" href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -80,7 +92,7 @@
         </ul>
       </section>
       <section class="team">
-        <h2 class="team">Our Team</h2>
+        <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-item">
             <img
@@ -212,7 +224,9 @@
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"><span>WEB</span> STUDIO</a>
+      <a class="footer-logo" href="./index.html"
+        ><span class="accent-footer">WEB</span> STUDIO</a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
